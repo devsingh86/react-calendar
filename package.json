@@ -1,0 +1,30 @@
+{
+  "name": "calendar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "build": "npx parcel build index.html",
+    "start": "npx parcel index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devsingh86/react-calendar.git"
+  },
+  "author": "Dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devsingh86/react-calendar/issues"
+  },
+  "homepage": "https://github.com/devsingh86/react-calendar#readme",
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+  
+}
