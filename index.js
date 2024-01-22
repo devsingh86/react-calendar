@@ -1,12 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import Calendar from "./src/components/Calendar";
+import DatePickerComp from "./src/components/Datepicker";
+
 
 const App = () => {
     return (
         <div className="App">
-          <h1 className="text-3xl font-bold mb-4">React Calendar</h1>
+          <h1>React Calendar</h1>
           <Calendar />
+          <h2>React Datepicker</h2>
+          <DatePickerComp />
         </div>
       );
 }
