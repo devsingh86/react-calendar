@@ -1,8 +1,7 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
+import ReactDOM from "react-dom";
 import Calendar from "./src/components/Calendar";
 import DatePickerComp from "./src/components/Datepicker";
-
 
 const App = () => {
     return (
@@ -15,6 +14,4 @@ const App = () => {
       );
 }
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-
-root.render(<App/>);
+ReactDOM.createRoot(document.getElementById("root")).render(<App/>);
